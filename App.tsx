@@ -1,11 +1,12 @@
 import React from 'react';
 import { Text } from 'react-native';
+import MessageForm from './MessageForm';
 import Profile from './Profile';
 
 const App = () => {
     return (
         <Profile name="hojun" isActive={true}>
-            <Text>Hello world</Text>
+            <MessageForm />
         </Profile>
     )
 };
