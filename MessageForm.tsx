@@ -28,7 +28,7 @@ const MessageForm = () => {
     useEffect(() => {
         if (!inputRef.current) {
             return;
-        } // inputRef의 유혀성을 확인하는 코드, 주석 처리 시 다른 대안으로 옵셔널 체이닝을 사용하여 ?를 붙여야 한다.
+        } // inputRef의 유효성을 확인하는 코드, 주석 처리 시 다른 대안으로 옵셔널 체이닝을 사용하여 ?를 붙여야 한다.
         inputRef.current.focus();
     }, []);
 
